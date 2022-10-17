@@ -1,0 +1,119 @@
+.bg-myColor {
+  background-color: navy;
+}
+
+.bg-myColor-dark {
+  background-color: rgb(215, 213, 213);
+}
+
+.z-position{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 200;
+}
+
+.line {
+  color: white;
+  text-decoration: none;
+}
+
+.line:hover {
+  color: rgb(255, 247, 0);
+}
+
+.line-dark-nav {
+  color: black;
+  text-decoration: none;
+}
+
+.line-dark-nav:hover {
+    color: black
+}
+
+.user-line {
+  text-decoration: none;
+}
+
+.line-dark:hover {
+  color: white
+}
+
+.my-user {
+  text-decoration: none;
+}
+
+.my-user:hover {
+    color: black;
+}
+
+.my-user-light:hover {
+    color: rgb(255, 247, 0);
+}
+
+.my-user-light {
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  
+  .logo {
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-right: 5%;
+  }
+
+  .li-nav {
+    font-size: 1.4rem;
+    margin-left: 8%;
+  }
+
+  .nav-arrow {
+    position: relative; right: 8%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .logo {
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+
+  .li-nav {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1267px) {
+
+  .li-user {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (min-width: 1268px) {
+  
+  .logo {
+    margin-left: 3%;
+    margin-top: -0.1%;
+    margin-right: 2%;
+  }
+
+  .li-nav {
+    margin-top: -0.4%;
+    position: relative; right: 3%;
+  }
+
+  .nav-arrow {
+    position: relative; right: 3%;
+  }
+}
+
+.nav-arrow {
+  list-style-type: none;
+}

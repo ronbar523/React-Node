@@ -1,0 +1,28 @@
+.location {
+  margin-top: 15%;
+  height: 530px;
+}
+
+.location-reg {
+  margin-top: 25%;
+  height: 55vh;
+}
+
+
+.btn-inf {
+  margin: auto;
+}
+
+
+.openModel {
+  opacity: 0.1;
+}
+
+.openModelArrow {
+  opacity: 0.5;
+}
+
+.desc-info {
+  text-decoration: underline;
+}
+
